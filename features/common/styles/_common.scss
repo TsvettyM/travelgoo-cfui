@@ -1,0 +1,38 @@
+.common__button {
+  height: 60px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 0 25px;
+  border: none;
+  width: 100%;
+  max-width: max-content;
+  &.is-green {
+    background: #00a651;
+    color: #fff;
+  }
+
+  &.is-gray {
+    color: #fff;
+    background: #666666;
+  }
+
+  &.is-big {
+    font-size: 24px;
+  }
+
+  &.is-normal {
+    font-size: 20px;
+  }
+
+  &.is-small {
+    font-size: 17px;
+  }
+}
+
+.common__section-title {
+  h2 {
+    font-size: 40px;
+    font-weight: 700;
+  }
+}
